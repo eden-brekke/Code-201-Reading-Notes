@@ -1,1 +1,105 @@
+Chapter 18 Process and Design
 
+Key topics:
+    - How to approach building a site
+    - Understanding your audience and their needs
+    - How to present information visitors want to see
+    
+    
+    Lookin at:
+        - What's your audience?
+        - How to organize info
+        - Design theory
+        - Design tips
+
+Who?
+
+  Target Audience:
+      -Age?
+      -Gender?
+      -Country?
+      -Urban/Rural?
+      -Avg. Income?
+      -Education level?
+      -Family status?
+      -Occupation?
+      -Web use frequency?
+      -Device to access site?
+    
+    Company:
+      -Size of company?
+      -Position of individual?
+      -Site for self or others?
+      -Budget?
+      
+ Why are they visiting your site?
+    -entertainment or other goal?
+    -personal or professional goal?
+    -essential or luxury?
+    
+ What are they trying to achieve?
+     -List of tasks you want your site to achieve
+     
+ What info does your site need?
+ 
+How often will people visit your site?
+
+Site maps:
+Home:
+  About:
+      History
+      Foundation
+      Future Plans
+  Articles:
+      news
+      book reviews
+      press
+      interviews
+  Visit:
+      Location
+      Opening times
+      tickets
+  Shops:
+      Books
+      Gifts
+  Contact:
+
+Wireframes:
+  a simple sketch of the key information that needs to go on each page of the site. 
+    Shows a hierarchy of the information and how much space it might requires
+    
+ Getting your message across using design:
+  The primary aim of any kind of visual design is to communicate. 
+  organization and prioritizing info on a page helps the users to understand its importants and how to read the site
+  
+  Content: 
+      Logo
+      Navigation
+      Links to related content
+      Login or membership options
+      Ability for users to comment
+      Copyright info
+      Links to polocies
+      
+    Prioritizing:
+      make important features distinct, use sizes and colors and location to your advantage
+      
+    Organization:
+        Use grouping of like functions for ease of access for users. 
+        
+   Be consistent in your style and colorings. 
+   
+   Concise: navigation should be quick and easy to read 
+   Clear: Site should be predictable
+   Selective: Dont put everything together, put navigation at one place, contact info at another, login options in another
+   Context: provide context to let userrs know where they are in a site
+   Interactive: links should be interactive, big enough to click on, change when the user hovers over them. different than other text on the page
+   
+   
+Summary Chapter 18 Process and Design:
+      - Its important to understand who your target audience is, why they would come to your site, what info they wantto find and when they are likely to return
+      - site maps allow you to plan the structure of a site
+      - wireframes allow you to organize the information that will need to go on each page
+      - design is about communication. visual hierarchy help visitors understand what you are trying to tell them
+      - you can differentiate between pieces of info using size, color, and style
+      - you can use grouping and similarity to help simplify the info you present. 
