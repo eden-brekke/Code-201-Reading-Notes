@@ -1,1 +1,69 @@
+Sub sections:
+1. About this book
+2. How the web works
+3. Learning from other pages
 
+
+1. About this book :
+  Introduction: There are intro pages for each chapter, introducing the key topics of each chapter
+  Reference: which introduce the key pieces of HTML/CSS code. HTML in blue and CSS in pink
+  Background: white pages that explain the context
+  Diagram: dark pages showing infographics. Simple visual reference 
+  Example: show a working example of the key topics
+  Summary: summarize what the chapter went over
+  
+  
+ Is it hard to learn? No! Code can look complicated at a glance but if you take the time to break it down piece by piece it's rather simple and follows logical rules. 
+ 
+ Structure of this book: Three sections  
+      Section 1.HTML: first chapter will look at HTML and how its used to create web pages.
+        you can start by simply writing what you want to appear on your page
+        then you add tages or elements to the words so that the browser knows what you want each set of words to be, a heading or a paragraph as an example. 
+        the rest of this section will introduce us to the tags at our disposal with HTML
+            texts
+            links
+            images
+            tables
+            forms
+            video audio
+            flash
+            miscellaneous elemets
+        these may not be the most exciting but theyre important building blocks
+      
+      Section 2. CSS: This section starts with how CS uses rules to style your HTML webpages
+        Look at a variety of CSS properties. Generally these properties fall into one of two categories:
+             Presentation: How to control things such as color of text, fonts, size of text, background colors, and background images
+             Layout: These control where the different elements are positioned on the screen. Making the site more attractive
+        
+      Section 3: Practical: The book ends with some helpful info that helps in building better websites. 
+        Some new tags for HTML5 which help describe the structure of the pages. (HTML5 being the newest version of HTML)
+        Before learning this it's important to have a grasp on CSS. 
+        These chapters will talk about the design process that I can follow in creating a new site
+        Then there are topics that will help us put it on the web, Search Enginge optimisation (SEO) and analytics software to track who comes to the site
+      
+How people access the web:
+      Browsers: such as chrome, firefox, safari etc.
+      Web servers: When you use your brower the request of going to a site is sent to a webserver which hosts the site.
+                   web servers are computers that are constantly connected to the internet and optimized to send web pages.
+                   Some big comparies run their own webservers but its more common to use the service of a webhosting company
+      Devices: Desktops, laptops, tablets, mobline phones. 
+      Screen Readers: Programs that read out the contents of a computer screen to the user.
+                      It's important to keep in mind screen readers when you're desiging your code 
+                      Throughout this book we'll see references to them and how to ensure our site are accessible to people who use this software
+                      
+How Websites are created: : All websites used HTML and CSS but content management systems, blogging software, and e-commerce platforms often add a few more technologies.
+       What you see: web browser interprets the HTML/CSS code you create. 
+                     Most sites include extra content such as images, audio, video, or animations.
+                     Some sites also send JavaScript or Flash, these are advanced topics touched on later (different book)
+       How it is created: Small websites just use HTML/CSS
+                          Larger websites make use of technologies that are used to produce HTML and CSS that is sent to the browser
+                          More complex sites may use a database to store data, and programming languages such as PHP, ASP.net Java or Ruby on a web server. 
+       HTML5 & CSS3: These are the most recent versions oF HTML and CSS, they build on previous versions of the languages. 
+       
+       
+How the web works: Communication between your computer and a Domain Name System (DNS) server 
+                   1. Connect to the web vis Internet service provider (ISP)
+                   2. Computer contacts a network (DNS)
+                   3. Unique number of DNS server returns to your computer and allows the browers to contact the web server. 
+                   4. Web server sends back the page you requested
+                   
