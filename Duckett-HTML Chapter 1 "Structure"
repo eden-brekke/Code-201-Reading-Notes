@@ -1,1 +1,114 @@
+Chapter One:Structure 
 
+Key Topics:
+            1. Understanding Structure
+            2. Learning about markup
+            3. Tags and Elements 
+   
+Many web pages are just electronic versions of documents that have been around for ages.
+    Newspapers, Insurance forms, shop catalogues etc. 
+    And they generally follow the same structure of their non-electronic counterparts
+    
+Structure is used to draw the eye to the important information 
+      a heading is larger to separate sections of a document, and give the reader a quick easy reference for which part of the document theyre viewing
+      heading types and sizes can also quickly display a hierarchy of information. 
+      Biggest heading could be a title to an article, while a smaller heading could be a subsection to said article
+
+HTML describes the structure of pages
+      You can use HTML to create these headings, and the information below each heading
+      
+          Example Code:
+              <htmL>
+                <body>
+                  <h1> Heading! </h1>
+                  <p> some text about the topic, maybe an introduction </p>
+                  <h2> Sub-heading! </h2>
+                  <p> some more imformation about the topic at hand </p>
+                  <h2> Another Sub-heading! </h2>
+                  <p> More info about this second subheading </p>
+                 </body>
+                </html>
+       
+       In the angled brackets above you see HTML elements. they're made up of two tags, an opening and a closing tag. 
+       Each element tells the browers something about the info that is between the two tags.
+       
+       <html></html> are the tages that indicate that anything between these two elements are HTML code
+       <body></body> tag indicates that anything within these elements are shown in the main browser window
+       <h1-6></h1-6> indicate headers. 1 being the largest text, 6 being smallest
+       <p></p> indicate paragraphs
+       
+       <p></p> analysis:
+       < = left angle bracket : Opening of a tag
+       p = character : indicate the tags purpose
+       >  = right angle bracket : closing of a tag
+       / = forward slash : needed to indicate the tag is the end of a set. 
+       
+ Attributes can tell use more about elements 
+      attributes provide additional info about the contents of the element. 
+      They appear within the opening tag and are made up of a two parts
+        1. Name
+        2. Value 
+          The two parts are separated by an equal sign
+         
+            Example Code:
+                <p lang ="en-us"> Paragraph in the english language</p>
+                
+                lang = attribute name
+                en-us = attribute value 
+                
+             Alternate example:
+                <p lang="fr">Paragraphe en Francais</p>
+                
+                lang = name
+                fr = value
+                
+                **HTML5 allows yuo to use upercase attribute names and omit the quotemarks but it is best practice to use lowercase and quote marks.
+                
+                
+Body Head and Title
+      Body: <body></body> everything in this element is in the main browser window
+      Head: <head></head> this contains info about the page, you'll usually find <title> in the <head> element
+      Title: <title></title> this is shown at the top of the brower, the tab title, 
+              allowning you to quickly discern which tab you want to go to when you have multiple open
+    
+    HTML stands for HyperTextMarkup Language. 
+       Hypertext: refers to the fact that HTML allows you to create links to other pages. 
+       Markup language: allows you to annotate text. Providing additional meaning to the content of the document
+                         tags we add count as markup
+                        
+    
+    Creating a webpage on a PC
+      All you need to create a webpage is a text editor such as Notepad
+      There is also a free version Nodepad++ (notepad-plus-plus.org) 
+      
+            code: 
+              <html>
+                <head>
+                  <title> My first Web Page </title>
+                 </head>
+                 <body>
+                  <h1> Welcome to my first webpage! </h1>
+                  <p>This is an HTML page I created in Notepad </p>
+                 </body>
+                </html>
+                
+         Save the file as an .html extension 
+        Start the web browser and go to file menu and open, select the file and open it. 
+         There's your first webpage!
+         
+Coding in a content management system
+  If you're working with a content management system, such as a blogging platform or an e-commerce application. 
+    you'll typically log into a special admin section to control a portion of the website. 
+    This means you wont see the whole inner code of the webpage but just a sub section of the website. 
+    
+ Looking at how other sites are built
+  You can look at how any webpage is made via code by looking at by using "view source" or by pressing f12 on windows 
+  
+Chapter 1 Summary: 
+ - HTML pages are text documents
+ - HTML uses text tags to give info a meaning
+ - Tags are referred to as elements
+ - Tags come in pairs, opening and closing
+ - Opening tags can carry attributes, telling us more about the content within the tags
+ - Attributes require a name and a value 
+ - To learn HTML you need to know what tags are available for you to use, what they do, and where they can go 
