@@ -1,1 +1,106 @@
+Chapter 17: HTML5 Layout
 
+Key Topics
+    - HTML5 Layout Elements
+    - How old browers understand new elements
+    - Styling HTML5 Layout elements with CSS
+    
+   
+   
+Before HTML5 You would use <div> to id parts of a page such as the header, the navigation bar, and different articles within a page
+      before: <div id = "header"> 
+        After: <header>
+      before: <div id = "'nav">
+        after: <nav>
+      before: <div id = "content">
+                <div class = "article">
+                <div class = "article">
+        after: <div id = "content">
+                 <article>
+                 <article>
+      before: <div id = "footer">
+        after: <footer>
+        
+        
+ Headers and Footers <header> <footer>
+    The main header or footer appear at the top and bottom of the page respectably 
+    There can also be a header or footer for each individual article within a page as well. 
+    <section> can also have a header or footer. 
+
+Navigation <nav>
+    the nav elementis used to contain the major navigational blocks on the site
+    this is usually a unordered list with each list item containing a link within the site
+        either to other pages of the site or down to a portion of the same page that is indicated with an id
+        
+ Articles <article>
+    Article elements act as contianers for any secction of a page that could stand alone. 
+        such as a blog entry, a comment, or a forum post 
+     A page can contain multiple articles, each having their own opening and closing article tags
+        Article tags can even be nested within each other. 
+        
+ Asides <aside>
+    An aside element has two purposes depending on whether it is inside or outside an <article> element
+        1. inside an <article> it should contain info related to the artile but not essential to the overall meaning
+            (So a pullquote or glossary might be an aside)
+        2. outside of an article, an <aside> can act as a container for content that is related to the entire page.
+            (Might be links to other sections of the site, a list of recent posts, a search box, etc)
+            
+ Sections <section>
+     The <section> element groups related content together.
+     Typically each section will have its own heading
+        Example: homepage might have several sections
+                    - latest news
+                    - top products 
+                    - newsletter sign ups etc.
+         Alternatively: long articles can be split up into separate sections
+      Section should not wrap the entire page, that's still best left for <div>
+     
+Heading Groups: <hgroup>
+    Purpose for <hgroup> element is to group together a set of one or more <h1-6> elements so that they are treated as one single heading. 
+          Example: hgroup elements could be used to conain both a title inside <h2> and a subtitle within <h3>
+                <hgroup>
+                  <h2>Vegetarian</h2>
+                  <h3>Five week course</h3>
+                </hgroup>
+     
+     This element has mixed reception. Some say it has little use. 
+     
+Figures <figure> <figcaption>
+    figure used to contain content in reference from mainflow of article
+    examples:
+        - images
+        - videos
+        - graphs
+        - diagrams 
+        - code samples
+        - text that supports main body
+        
+       <figure> should contain <figcaption> to provide a text description for contents 
+            can be added within an article element 
+            
+Sectioning Elements <div>
+    <div> will always remain important for grouping related elements 
+  
+Linking around block-level elements
+    html5 allows authors to place a link <a> element around a block level element, turning the whole block into a link
+    
+Helping older browsers understand
+    old browsers dont know the new HTML5 elelements and will treat them as inline elements 
+    
+    CSS:
+    header, section, footer, aside, nav, article, figure, figcaption {
+      display: block;}
+      
+    HTML:
+    <!--[if lt IE 9]
+        <script src="http://htm5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+     
+     
+Nice code examples on pg 445-448**
+
+Summary Chapter 17 
+      - new HTML5 elements indicate the purpose of different parts of a web page and help describe its structure
+      - new elements provide clearer code
+      - older browers don't understand HTML5 need a workaround
+        
