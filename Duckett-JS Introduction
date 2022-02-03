@@ -1,1 +1,57 @@
+Introduction: JavaScript and Jquery: interactivr front-end web development 
 
+
+Javascript makes web pages more interactive
+
+1. Access content 
+    You can us JS to select any element, attribute or text from an HTML page 
+        - Select text from h1 on a page
+        - select any element with a class attribute with a value of note
+        - find out what was entered into text input whose id attribute has a value of email
+2. Modify content 
+    You can use JS to add elements, attributes and text to the page, or remove them. 
+        - add a paragraph of text after the first h1 element
+        - change the value of class attribute to trigger new css rules for those elements 
+        - change the size or position of an <img> element
+3. program rules
+    You can specify a set of steps for the browers to follow (like a recipe) which allows it to access or change the content of the page
+        - gallery script could checkwhich img a user cliced on and display a larger version of that img
+        - a mortgage calculator could collect values from a form, perfrm a calculation and display repayments
+        - an animation could check the domensions of the browers window and move an image to the bottom of the viewable are (also known as the viewport)
+4. React to events
+    you can specify that a script should run when a specific event has occurred.
+        - a button is pressed
+        - a link is clicked
+        - a cursor hovers over an element
+        - information is added to a form
+        - an interval of time has passed
+        - a web page has finished loading
+        
+       
+Structure of the book:
+
+Core Concepts by Chapter:
+    1. Key concepts in programming, show how computers creat odels using data, how JS changes content of HTML page
+    2-4. basics of JS language
+    5. explain document object model (DOM), access and change a documents contents while its loaded into the browser
+    6. discuss how events an be used to trigger code
+    7. show how jquery can make the process of writing scripts faster and easier
+    8. introduce  Ajax, set of techniques that allow you to change part o the webpage without relaoding it
+    9. application programming interfaces (API) 
+    
+ Practical Applications by Chapter:
+    10. deal with error handling and debugging, explain how JS is processed
+    11. techniques for creating content panels (sliders, modal windows, tabbed panels, accordians)
+    12. techniques for filtering and sorting data. (filter gallery imgs and reordering the rows of a table by clicking on column headings)
+    13. deal with form enhancements and how to validate form enteries
+    
+    
+    
+  CSS Refresher:
+  .fruit {color: pink;}
+  .fruit = selector
+  color = property name
+  pink = property value 
+  {} = declaration block
+  
+     
