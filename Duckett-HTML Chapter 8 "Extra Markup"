@@ -1,1 +1,164 @@
+Chapter 8: Extra Markup (p176-199)
 
+Key Topics: 
+  - Specifying different versions 
+  - Identifying and Grouping Elements 
+  - Comments, meta information and iframes 
+  
+  Helpful topics covered in this chapter:
+    - Different versions of HTML and how to indicate which version youre using
+    - how to add comments to code
+    - global attribute: which can be used on any element (class and id attributes)
+    - elements that are used to group together parts of the page 
+    - how to embed a page within a page using iframes
+    - add info about a page using <meta>
+    - add characters such as angled brackets and copyright symbols
+    
+  
+  Versions of HTML: 
+    HTML 4(1997) Most the same as HTML5 but used presentational elements that arent recommended anymore, such as <center> and <font>
+    XHTML 1.0 (2000) HTML was reformated to follow rules of XML. 
+                     Made it so every elemeted needed a closing tage besides imgs
+                     Attribute names had to be lowercase
+                     attributes required a value and values were put in quotes
+                     deprecated elements should no longer be used
+                     every element that was opened inside another element should be closed inside the same element
+                  Two flavors of XHTML:
+                          strict: author had to follow rules to the letter
+                          transitional: could still use <center> <font> etc. 
+                       A third was called: Frameset. allowing authors to partition windows into several frames, each holding different HTML code
+                                           These are very rarely used, being phased out. 
+     HTML5 (in progress during this books publication process): authors dont need to close all tags, new elements, new attributes 
+     
+    
+  DOCTYPES
+      The doctype allows the webpage to know which type of HTML you are using
+      
+      HTML5 : <!DOCTYPE html>
+      HTML4 : <!DOCTYPE html PUBLIC -- links found on pg 181>
+      Transitional HTML1.0/Strict HTML1.0 Same as HTML4 but different links, on pg 181
+      XML Declaration : <?xml version="1.0" ?>
+      
+   Comments in HTML
+        to write comments (not included in the code but rather a note to whoever is reading the code) use <!-- Comment here! -->
+        
+   ID attribute: 
+         Every element can carry an ID attribute. start with an underscore(_) or a letter, no other character and make sure never to use repeat ID's for elements.
+         this allows you to call each ID and treat them differently. (with HTML or with CSS or JS later) 
+         ID is known as a global attribute, because it can be used on any element
+    
+   Class Attribute: 
+         Every element can carry a class attribute 
+         This allows you to indetify more than one element with the same class.
+         Example: some elements you might want to class as important 
+         
+   Block Elements: 
+        Some elements will always appear to start ona new line in the browser window. 
+          Examples of elememts are <h1> <p> <ul> or <li> 
+       
+   Inline elements: 
+         Some elements will always appear to coninue on the sameline, as their neighboring elements. These are Inline
+          Examples of inline elements are <a> <b> <em> or <img>
+   
+   Grouping Text and Elements in a Block
+        <div> element allows you to group of a set of elements together
+          Example: us <div> to contain all the elements in a headers of your site 
+                    such as the logo and navigation links
+          You can use an id or class attribute on a div element to create a CSS style rule for the whole block
+          div also allows you to organize your code 
+          
+    Grouping Text and elements Inline
+        <span> element acts like an inline equiv to <div> 
+            It's used to either: 
+                1. Contain a section of text where there is no other suitable element to diffrentiate it from its surrounding text
+                2. Contain a number of inline elements
+         Most common reason people use <span> is to control the appearance of the content of these elements using CSS
+            You will ususally see that a class or id is used with <span> elements, so as to:
+                - Expain the purpose of the span element
+                - so CSS styles can be used to style just that element within the element. 
+                
+      Iframes:
+        <iframe> is like a little window that has been cut into your page
+              Example of iframe: google maps
+                                  the content within an iframe can be any HTML code
+               Created by using an <iframe> element
+                  You'll need to know a few attrbutes to use iframes
+                        src : specifies URL of page shown in the frame
+                        height : specifies pixels alloted for height of frame
+                        width : specifies pixel alloted for width of frame
+                        scrolling: (not supported in HTML5) but was usedto indicate whether iframe had scroll bars, if page was larger than alloted space
+                                    yes = show, no = dont show, and auto = show only if needed
+                        frameborder: (not supported in HTML5) whether the grame should have a border or not
+                        seamless: new in HTML5, applied to iframe where scrollbars arent desired. Doesnt need a value, but you'll often see values anyway. 
+                                  Older browers don't support seamless attribute. 
+                
+       Information about your pages:
+          <meta> element lives inside the <head> portion of your code and contains info about the webpage
+            It's not visible to the users but can help by telling the search enginges about your page
+              Info such as: author of page, whether or not it is time sensitive (if it is time sensitive it can be se tto expire) 
+             <meta> is an empty element so it doesn't need a closing tag
+                     and uses attribute to carry the info
+                        Most common attributes: name and content which are usually used together
+                        
+              Value of the name attribute can be anything you want it to be.
+              Some defined values for this attribute that are commonly used:
+                Description: Contains description of page
+                             Example code:
+                                <meta name = "Description"
+                                    content = "An Essay on Installation" />
+                Keywords: list of comma, separated words the user might search to find the page (in practice this no longer has any noticable effect)
+                          Example:
+                            <meta name = "keywords"
+                                contents ="installation. art. opinion" />
+                Robots: whether search enginges should add this page to their search or not. 
+                          noindex: should not be added
+                          nofollow: should add to results but not the pages that it links to
+                            example:
+                              <meta name = "robots"
+                                  content = "nofollow" />
+                       
+            The <meta> element uses http-equiv and content attributes in pairs. 
+              Three instances of http-equiv attributes:
+                  1. author : defines the author of web page
+                              Example:
+                                   <meta http-equiv="author"
+                                     content="Eden" />
+                  2. pragma : prevents browser from caching page
+                               (where caching is storing it locally to save time downloading it on subsequent visits)
+                               Example:
+                                    <meta http-equiv="pragma"
+                                      content="no-cache" />
+                  3. expires : because browsers often cache the contents of a page, the expires option indicates when that cache expires. 
+                                date must follow example:
+                                    <meta http-equiv="expires"
+                                      content="Fri. 04 Apr 2022 23:59:59 PST" /> 
+                                      
+ Escape Characters
+    There are characters that are used and reserved by HTML code (Such as < and > ) 
+      Therefore if you want the characters to appear within your page you need to use the escape characters
+      You can use the escape codes: &1t; or &#60; if you want to use < in your page. 
+      You can find these escape codes on page 194 of Duckett HTML/CSS book 
+      some common ones 
+      < = &lt;
+      > = &gt;
+      & = &amp;
+      " =&quot;
+      copyright = &copy;
+      trademark = &trade;
+      registered trademark = &reg;
+      multiplication = &times;
+      Division = &divide;
+      left single quote/double quote = &lsquo; / &ldquo;
+      right single quote/double quote = &rsquo; / &rdquo; 
+      
+  
+  Summary Chapter 8 Eztra Markup:
+  
+  - DOCUTYPES tell browser which version of HTML you are using
+  - You can add comments <!-- -->
+  - id and class attributes allow you to identify particular elements
+  - <div> and <span> elements allow you to group block-level and inline elements together
+  - <iframes> cut windows into your webpage
+  - <meta> tag allows you to supply all kinds of info 
+  - escape characters are used to include special characters 
+  
