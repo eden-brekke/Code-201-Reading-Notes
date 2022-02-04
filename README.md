@@ -162,7 +162,7 @@ If you go into a topic without any knowledge, even if you end up failing, you ca
  
  <br>
  
-#####Sub sections:
+##### Sub sections:
 1. About this book
 2. How the web works
 3. Learning from other pages
@@ -237,7 +237,7 @@ How the web works: Communication between your computer and a Domain Name System 
  
  Chapter One:Structure  <br>
 
-#####Key Topics:
+##### Key Topics:
             1. Understanding Structure <br>
             2. Learning about markup <br>
             3. Tags and Elements  <br>
@@ -341,7 +341,7 @@ Coding in a content management system <br>
  Looking at how other sites are built <br>
   You can look at how any webpage is made via code by looking at by using "view source" or by pressing f12 on windows  <br>
   
-#####Chapter 1 Summary: 
+##### Chapter 1 Summary: 
  - HTML pages are text documents <br>
  - HTML uses text tags to give info a meaning <br>
  - Tags are referred to as elements <br>
@@ -354,7 +354,7 @@ Coding in a content management system <br>
 ## HTML and CSS Chapter 8
   Chapter 8: Extra Markup (p176-199) <br>
 
-#####Key Topics: 
+##### Key Topics: 
   - Specifying different versions  <br>
   - Identifying and Grouping Elements  <br>
   - Comments, meta information and iframes  <br>
@@ -521,7 +521,7 @@ Coding in a content management system <br>
 ## HTML and CSS Chapter 17 <br>
         Chapter 17: HTML5 Layout <br>
 
-#####Key Topics <br>
+##### Key Topics <br>
     - HTML5 Layout Elements <br>
     - How old browers understand new elements <br>
     - Styling HTML5 Layout elements with CSS <br>
@@ -620,7 +620,7 @@ Helping older browsers understand <br>
      
 Nice code examples on pg 445-448** <br>
 
-#####Summary Chapter 17  <br>
+##### Summary Chapter 17  <br>
       - new HTML5 elements indicate the purpose of different parts of a web page and help describe its structure <br>
       - new elements provide clearer code <br>
       - older browers don't understand HTML5 need a workaround <br>
@@ -630,7 +630,7 @@ Nice code examples on pg 445-448** <br>
 ## HTML and CSS Chapter 18 <br>
      Chapter 18 Process and Design <br>
 
-#####Key topics: <br>
+##### Key topics: <br>
     - How to approach building a site <br>
     - Understanding your audience and their needs <br>
     - How to present information visitors want to see <br>
@@ -840,14 +840,14 @@ Computers solver problems programmatically, by following a series of istructions
   
   To design the script you should draw out a flowchart <br>
 
-#####Summary of 1A: <br>
+##### Summary of 1A: <br>
 - script is a series of instructions that the cmputer can follow in order to achieve a goal <br>
 - each time the script runs, it might only use a subset of all instructions <br>
 - computers approach the task in a different way than humans, so your instruction must let the computer solve the task programmatically <br>
 - to approach writing a script break down your goal into a series of tasks then work out each step needed to complete the task (a flowchart can help) <br>
 
 
-####Chapter 1B: How do computers fit in with the world around them? <br>
+#### Chapter 1B: How do computers fit in with the world around them? <br>
 
 Computers create models of the world using data.  <br>
     Objects: things: each object can have its own <br>
@@ -902,7 +902,7 @@ Computers create models of the world using data.  <br>
      - to make webpages interactive, you write code that uses the browser's model of the web page <br>
      
   
-####Chapter 1C How do I write a script for a webpage? <br>
+#### Chapter 1C How do I write a script for a webpage? <br>
   
   HTML : content layers <br>
   CSS : presentation layer  <br>
