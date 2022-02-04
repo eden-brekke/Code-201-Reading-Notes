@@ -160,6 +160,8 @@ If you go into a topic without any knowledge, even if you end up failing, you ca
  
 ## HTML and CSS Introduction
  
+ <br>
+ 
 #####Sub sections:
 1. About this book
 2. How the web works
