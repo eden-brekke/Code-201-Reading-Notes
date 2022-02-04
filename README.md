@@ -141,7 +141,7 @@ If you go into a topic without any knowledge, even if you end up failing, you ca
 3. Stay diligent and **keep trying**, remember that <em>google</em> is a great friend <br>
   
   
- ## Table of Readings
+## Table of Readings
   
 |Book| Chapter | Topic |
 |:---:|:---:| :---: |
@@ -154,9 +154,9 @@ If you go into a topic without any knowledge, even if you end up failing, you ca
 |Duckett: JavaScript and jQuery| [Chapter 1](##-javascript-and-jquery-chapter-1) | The ABC's of Programming|
   
 
- ## HTML and CSS Introduction
+## HTML and CSS Introduction
  
- Sub sections:
+#####Sub sections:
 1. About this book
 2. How the web works
 3. Learning from other pages
@@ -231,7 +231,7 @@ How the web works: Communication between your computer and a Domain Name System 
  
  Chapter One:Structure 
 
-Key Topics:
+#####Key Topics:
             1. Understanding Structure
             2. Learning about markup
             3. Tags and Elements 
@@ -335,7 +335,7 @@ Coding in a content management system
  Looking at how other sites are built
   You can look at how any webpage is made via code by looking at by using "view source" or by pressing f12 on windows 
   
-Chapter 1 Summary: 
+#####Chapter 1 Summary: 
  - HTML pages are text documents
  - HTML uses text tags to give info a meaning
  - Tags are referred to as elements
@@ -348,7 +348,7 @@ Chapter 1 Summary:
 ## HTML and CSS Chapter 8
   Chapter 8: Extra Markup (p176-199)
 
-Key Topics: 
+#####Key Topics: 
   - Specifying different versions 
   - Identifying and Grouping Elements 
   - Comments, meta information and iframes 
@@ -499,8 +499,8 @@ Key Topics:
       left single quote/double quote = &lsquo; / &ldquo;
       right single quote/double quote = &rsquo; / &rdquo; 
       
-  
-  Summary Chapter 8 Eztra Markup:
+
+##### Summary Chapter 8 Eztra Markup:
   
   - DOCUTYPES tell browser which version of HTML you are using
   - You can add comments <!-- -->
@@ -515,7 +515,7 @@ Key Topics:
 ## HTML and CSS Chapter 17
         Chapter 17: HTML5 Layout
 
-Key Topics
+#####Key Topics
     - HTML5 Layout Elements
     - How old browers understand new elements
     - Styling HTML5 Layout elements with CSS
@@ -614,7 +614,7 @@ Helping older browsers understand
      
 Nice code examples on pg 445-448**
 
-Summary Chapter 17 
+#####Summary Chapter 17 
       - new HTML5 elements indicate the purpose of different parts of a web page and help describe its structure
       - new elements provide clearer code
       - older browers don't understand HTML5 need a workaround
@@ -624,7 +624,7 @@ Summary Chapter 17
 ## HTML and CSS Chapter 18
      Chapter 18 Process and Design
 
-Key topics:
+#####Key topics:
     - How to approach building a site
     - Understanding your audience and their needs
     - How to present information visitors want to see
@@ -720,7 +720,7 @@ Wireframes:
    Interactive: links should be interactive, big enough to click on, change when the user hovers over them. different than other text on the page
    
    
-Summary Chapter 18 Process and Design:
+##### Summary Chapter 18 Process and Design:
       - Its important to understand who your target audience is, why they would come to your site, what info they wantto find and when they are likely to return
       - site maps allow you to plan the structure of a site
       - wireframes allow you to organize the information that will need to go on each page
@@ -780,7 +780,7 @@ Core Concepts by Chapter:
     
     
     
-  CSS Refresher:
+##### CSS Refresher:
   .fruit {color: pink;}
   .fruit = selector
   color = property name
@@ -790,7 +790,7 @@ Core Concepts by Chapter:
      
 ## JavaScript and jQuery Chapter 1
  
-        Chapter 1: The ABCs of programming
+##### Chapter 1: The ABCs of programming
 
 A. What is a script and how do I create one. 
 B. How do computers fit in with the world around them?
@@ -834,14 +834,14 @@ Computers solver problems programmatically, by following a series of istructions
   
   To design the script you should draw out a flowchart
 
-Summary of 1A:
+#####Summary of 1A:
 - script is a series of instructions that the cmputer can follow in order to achieve a goal
 - each time the script runs, it might only use a subset of all instructions
 - computers approach the task in a different way than humans, so your instruction must let the computer solve the task programmatically
 - to approach writing a script break down your goal into a series of tasks then work out each step needed to complete the task (a flowchart can help)
 
 
-Chapter 1B: How do computers fit in with the world around them?
+####Chapter 1B: How do computers fit in with the world around them?
 
 Computers create models of the world using data. 
     Objects: things: each object can have its own
@@ -885,7 +885,7 @@ Computers create models of the world using data.
      2. create a model of the page and store it in memory
      3. use a rendering engine to show the page on screen
      
- Summary of chapter 1B How do computers fit in with the world around them? 
+###### Summary of chapter 1B How do computers fit in with the world around them? 
     - computers create models of the world using data
     - the models use objects to represent physical things. 
             objects can have: properties that tell us about the object; 
@@ -896,7 +896,7 @@ Computers create models of the world using data.
      - to make webpages interactive, you write code that uses the browser's model of the web page
      
   
-  Chapter 1C How do I write a script for a webpage?
+####Chapter 1C How do I write a script for a webpage?
   
   HTML : content layers
   CSS : presentation layer 
@@ -904,7 +904,7 @@ Computers create models of the world using data.
   
   Link your JS to your HTML files 
   
-  Summary 1C 
+###### Summary 1C 
   - keep your JS codein its own JS file. 
   - HTML <script> element is used in HTML pages to tell the brower to load the JS file 
   - view the source code of the page in the browers. JS will not change the HTML, script works with the model of the web page that the browser has created.
