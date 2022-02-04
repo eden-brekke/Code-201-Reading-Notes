@@ -408,9 +408,11 @@ Coding in a content management system <br>
          
    Block Elements:  <br>
         Some elements will always appear to start ona new line in the browser window.  <br>
-          Examples of elememts are <h1> <p> <ul> or <li>  <br>
-       
-   Inline elements:  <br>
+          Examples of elements are <!-- <h1> <p> <ul> or <li>  --> <br>
+  
+ <br> 
+ 
+   Inline elements: 
          Some elements will always appear to coninue on the sameline, as their neighboring elements. These are Inline <br>
           Examples of inline elements are <a> <b> <em> or <img> <br>
    
