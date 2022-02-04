@@ -20,9 +20,7 @@ Pumpkin Pie McSassypants <br>
 Monterey Jack <em>The Third</em> <br>
 ![Jack](268024169_1358846637886415_6077591389068869970_n.jpg) <br>
 
-Here I'll outline the reading notes I've taken for Code 201 Code Fellows Course
 
-Each chapter is outlined in a separate file. 
 
 ### Cheat Sheet
   Here I outline some useful syntax, tips and tricks and previous reading notes.
