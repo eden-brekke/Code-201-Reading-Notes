@@ -156,6 +156,7 @@ If you go into a topic without any knowledge, even if you end up failing, you ca
 |Duckett: JavaScript and jQuery| [Introduction](##-javascript-and-jquery-introduction) |About this book|
 |Duckett: JavaScript and jQuery| [Chapter 1](##-javascript-and-jquery-chapter-1) | The ABC's of Programming|
   
+ All Information referenced from Dockett HTML&CSS/JavaScript and jQuery(2011)
 <br> 
  
 ## HTML and CSS Introduction
